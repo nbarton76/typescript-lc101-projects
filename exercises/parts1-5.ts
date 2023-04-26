@@ -58,7 +58,7 @@ class Spacecraft{
     }
     printDaysToLocation(location: SpaceLocation) {
         console.log(`${this.name} would take ${this.getDaysToLocation(location.kilometersAway)} days to get to ${location.name}.`);
-     }
+    }
 }
 
 
